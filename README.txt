@@ -33,21 +33,26 @@ to create a neural network that classifies characters from a 28x28 pixel
 image. 
 
 Other Libraries Utilized:
-Matplotlib
-For displaying images to the user.
-Numpy
-For matrix manipulation and calculations.
-Pickle
-For saving and retrieving files. 
+Matplotlib - For displaying images to the user.
+Numpy - For matrix manipulation and calculations.
+Pickle - For saving and retrieving files. 
 
 
 Using the program:
-This program should not require any setup. It was origionally made to be
-run from the Spyder IDE from the "Main.py". However, to make visulazation
-a little easier, the high level code has been commented out in "Main.py"
-and repeated in a Juypter Notebook named "High_Level_Flow". If you
-encounter issues running the Notebook, I suggest uncommenting the code in
-"Main.py" and running from there. 
+
+Setup:
+Should you wish to retrain the TensorFlow network section of this code
+for any reason the dataset from
+ https://www.nist.gov/itl/iad/image-group/emnist-dataset
+will have to be downloaded. Other than that the code should be ready 
+to go.
+
+Execution:
+It was origionally made to be run from the Spyder IDE from the "Main.py".
+However, to make visulazation a little easier, the high level code
+has been commented out in "Main.py" and repeated in a Juypter Notebook 
+named "High_Level_Flow". If you encounter issues running the Notebook, 
+I suggest uncommenting the code in "Main.py" and running from there. 
 
 The program pulls images from the top level of the "Image" folder.
 Currently there are three images that were used for testing. To see the 
